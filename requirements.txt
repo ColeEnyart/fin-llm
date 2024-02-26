@@ -1,3 +1,5 @@
-llama-index
-openai
+llama-index-core
+llama-index-llms-mistralai
+llama-index-embeddings-mistralai
+pandas
 python-dotenv
