@@ -8,11 +8,10 @@ from llama_index.core import (
 from llama_index.llms.mistralai import MistralAI
 from llama_index.embeddings.mistralai import MistralAIEmbedding
 import pandas as pd
+from settings import MISTRAL_API_KEY
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
-api_key = os.getenv("MISTRAL_API_KEY")
+api_key = MISTRAL_API_KEY
 PERSIST_DIR = "./storage"
 INPUT_DIR = "./data/10k"
 

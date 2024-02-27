@@ -1,2 +1,4 @@
 .env
 storage
+llamaindex/volumes
+__pycache__

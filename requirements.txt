@@ -1,5 +1,15 @@
-llama-index-core
-llama-index-llms-mistralai
-llama-index-embeddings-mistralai
+llama-index
 pandas
 python-dotenv
+
+# mistral
+llama-index-llms-mistralai
+llama-index-embeddings-mistralai
+
+# milvus
+milvus
+pymilvus
+llama-index-vector-stores-milvus
+
+# neo4jvector
+llama-index-vector-stores-neo4jvector
