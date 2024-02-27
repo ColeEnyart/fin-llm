@@ -6,7 +6,6 @@ import pandas as pd
 
 def create_vector_store(vector_db, dim, collection_name, *args):
     username, password, url = args
-    dim = dim
     if vector_db == "milvus":
         return MilvusVectorStore(collection_name=collection_name, dim=dim)
     if vector_db == "neo4jvector":
